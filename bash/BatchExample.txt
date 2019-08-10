@@ -1,0 +1,3 @@
+echo "This is an example of a batch of 3 commands to be used with batch-command-runner.sh. This is command 1"
+hostname
+uname -a
