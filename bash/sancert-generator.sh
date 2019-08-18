@@ -84,7 +84,7 @@ function configGen() {
 function certGen() {
     #Function to determine key length and generate key and CSR.
 
-    echo -n "Use 4096 bit key? (y/n) [y]: " ; 
+    echo -n "Use 4096 bit key (no uses 2048 bit key)? (y/n) [y]: " ; 
     read ans ;
     if [[ $ans = "y" ]] || [[ $ans = "Y" ]] || [[ -z $ans ]] ; then
         echo "Generating CSR and Key with 4096 bit key length" ;
